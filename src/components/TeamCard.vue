@@ -21,6 +21,9 @@
         display: block;
         margin: 0 auto;
         height: 150px;
+        width: 150px;
+        object-fit: cover;
+        border-radius: 50%;
     }
     h4 {
         font-size: 1em;
