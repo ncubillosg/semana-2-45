@@ -1,6 +1,6 @@
 [
     {
-        "codigo": 3,
+        "codigo": 1,
         "nombre": "Sebastián Cely",
         "descripcion": "Ingeniero Industrial. Hobbies: Videojuegos, escuchar música, programar, hacer deporte.",
         "rol": "Desarrollador backend",
@@ -10,11 +10,11 @@
         "codigo": 2,
         "nombre": "Nicolás Cubillos",
         "descripcion": "Ingeniero Electrónico motivado por el aprendizaje de desarrollo de software, enfocado a solucionar y crear oportunidades para las empresas.",
-        "rol": "Desarrollador backend",
+        "rol": "Desarrollador frontend",
         "image": "https://via.placeholder.com/150"
     },
     {
-        "codigo": 1,
+        "codigo": 3,
         "nombre": "Camilo González",
         "descripcion": "Ingeniero de sistemas. Hobbies: Tecnología, fútbol y videojuegos.",
         "rol": "Desarrollador backend",
