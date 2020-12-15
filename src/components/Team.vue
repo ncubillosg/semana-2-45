@@ -12,14 +12,6 @@
 import teamcard from './TeamCard.vue';
 import members from '../team.json';
 
-/* const call = async query => {
-    const response = await fetch(query);
-    const data = await response.json();
-
-    console.log(data);
-    return data;
-}; */
-
 export default {
     name: "Team",
     components: {
@@ -29,15 +21,7 @@ export default {
         return {
             members
         }
-    },
-    /* created() {
-        call("../team.json")
-            .then(data => {
-                console.log(data);
-                this.members = data;
-            })
-            .catch(err => console.error(err));
-    } */
+    }
 }
 </script>
 <style>
