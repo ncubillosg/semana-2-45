@@ -20,6 +20,9 @@
     img {
         display: block;
         margin: 0 auto;
-        max-height: 200px;
+        height: 150px;
+    }
+    h4 {
+        font-size: 1em;
     }
 </style>
