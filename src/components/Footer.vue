@@ -1,6 +1,6 @@
 <template>
   <footer
-            style="text-align: center; background-color: #3E4551; position: absolute; bottom: 0; width: 100%; color: white;">
+            style="text-align: center; background-color: #3E4551; width: 100%; color: white;">
         <div class="container text-center text-md-left">
             <div class="row">
                 <div class="col-md-5 mx-auto">
