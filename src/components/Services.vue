@@ -55,11 +55,12 @@ export default {
     margin-left: auto;
     margin-right: auto;
     border:none;
+    width: 90%;
 }
 
 .slider-size{
-    width: 600;
-    height: 400;
+    width: 100%;
+    height: 500;
 }
 
 .paragraph-sliders-text{
