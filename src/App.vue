@@ -2,6 +2,7 @@
   <div id="app">
     <Header />
     <main>
+      <News />
       <Team />
     </main>
     <Footer />
@@ -12,13 +13,15 @@
 import Team from './components/Team';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import News from './components/News';
 
 export default {
   name: 'App',
   components: {
     Team,
     Header,
-    Footer
+    Footer,
+    News
   }
 }
 </script>
