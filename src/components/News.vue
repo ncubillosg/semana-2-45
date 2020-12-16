@@ -1,29 +1,33 @@
 <template>
-<div class="row mt-md-5 mt-sm-5 mt-xs-5" >
-    <div class="col-lg-6 col-xs-12" v-for="(item,index) of this.info" :key="index">
-        <div clas="container-fluid" >
-        <div class="d-flex justify-content-center align-items-center">
-            <div class="p-3">
-                <img src="https://i.picasion.com/pic90/96f94ea318bfd9ede1d311621d6696f2.gif" width="200" height="200" border="0" alt="coffeeNews" >
-            </div>
-            <div class="p-2">
-               <p>{{ item.title }}</p>
-               <p>{{ item.description.slice(0,250) }}</p>
-               <p>{{ item.author }}</p>
-            </div>
+
+ <div >
+      <p class="d-block p-2 bg-dark text-white justify-content-center text-center">Noticias</p>
+      <div clas="d-flex container-fluid flex-wrap">
+                <div class="row mt-md-5 mt-sm-5 mt-xs-5" >
+                    <div class="col-lg-6 col-xs-12" v-for="(item,index) of this.info" :key="index">
+                        <div clas="container-fluid" >
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="p-3">
+                                    <img src="https://i.picasion.com/pic90/96f94ea318bfd9ede1d311621d6696f2.gif" width="200" height="200" border="0" alt="coffeeNews" >
+                                </div>
+                                <div class="p-2">
+                                <p>{{ item.title }}</p>
+                                <p class="text-justify">{{ item.description.slice(0,600) }}...</p>
+                                <p>{{ item.author }}</p>
+                                </div>
+                            </div>
+                            <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
+                                <a :href="item.url" target="_blank">
+                                    <button type="button" class="btn btn-outline-info" >info</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
-        <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
-            
-               <a :href="item.url" target="_blank">
-               <button type="button" class="btn btn-outline-info" >Info</button>
-               </a>
-            
-        </div>
-        </div>
-    </div>
-</div>
+ </div>   
     
-</template>
+ </template>
 
 <script>
     import axios from "axios"
