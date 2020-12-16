@@ -1,21 +1,28 @@
 <template>
   <div id="app">
-
-    <!---News--->
-            <news></news>           
-  
-  </div>     
-      
+    <Header />
+    <main>
+      <News />
+      <Team />
+    </main>
+    <Footer />
+  </div>
 </template>
 
 <script>
-import News from './components/News.vue'
+import Team from './components/Team';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import News from './components/News';
 
 export default {
   name: 'App',
-  components: { 
-    News 
-    },
+  components: {
+    Team,
+    Header,
+    Footer,
+    News
+  }
 }
 </script>
 
