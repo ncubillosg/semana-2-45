@@ -13,9 +13,11 @@
             </div>
         </div>
         <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
-            <button type="button" class="btn btn-outline-info" >
-               <a :href="item.url" >info</a>
-            </button>
+            
+               <a :href="item.url" target="_blank">
+               <button type="button" class="btn btn-outline-info" >Info</button>
+               </a>
+            
         </div>
         </div>
     </div>
