@@ -2,6 +2,7 @@
   <div id="app">
     <Header />
     <main>
+      <Services />
       <News />
       <Team />
     </main>
@@ -14,6 +15,7 @@ import Team from './components/Team';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import News from './components/News';
+import Services from './components/Services';
 
 export default {
   name: 'App',
@@ -21,7 +23,8 @@ export default {
     Team,
     Header,
     Footer,
-    News
+    News,
+    Services
   }
 }
 </script>
