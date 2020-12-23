@@ -1,4 +1,7 @@
-# pryecto_sprint2
+# vuetify-proyecto semana 5
+```
+se agrego el componente usuario y se utlizo nuevamente vuetify como planilla para gestionar el componente.
+```
 
 ## Project setup
 ```
